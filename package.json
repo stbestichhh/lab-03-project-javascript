@@ -12,6 +12,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "start:watch": "nodemon index.js"
+    "start:watch": "nodemon index.js",
+    "build": "docker build .",
+    "run": "docker run"
   }
 }
